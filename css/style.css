@@ -142,12 +142,12 @@ img {
     }
 
     h2 {
-        font-size: 2.5rem;
+        font-size: 2.25rem;
     }
 
     .container {
-        width: 100vw;
-        margin: 0;
+        width: 88vw;
+        margin: 0 auto;
         padding: 0;
     }
 
@@ -156,14 +156,22 @@ img {
         flex-direction: column;
     }
 
+    .col {
+        padding-top: 2.5rem;
+    }
+
     .lessons h2 {
         margin-bottom: 0;
     }
 
     .lessons .col {
         width: 100%;
-        padding-top: 2.5rem;
     }
+
+    .lessons .col img {
+        height: 260px;
+    }
+
 
 
 }
