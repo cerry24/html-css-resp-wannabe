@@ -142,6 +142,7 @@ img {
     }
 
     h2 {
+        margin-bottom: 0;
         font-size: 2.25rem;
     }
 
@@ -160,10 +161,6 @@ img {
         padding-top: 2.5rem;
     }
 
-    .lessons h2 {
-        margin-bottom: 0;
-    }
-
     .lessons .col {
         width: 100%;
     }
@@ -172,6 +169,11 @@ img {
         height: 260px;
     }
 
+    .steps .col {
+        width: 100%;
+    }
 
-
+    .steps .col img {
+        height: 300px;
+    }
 }
